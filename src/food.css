@@ -1,0 +1,68 @@
+
+
+body {
+  background-color: #76a3e1; /* Set the background color to your preference */
+  font-family: Arial, sans-serif; /* Change the font family if needed */
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff; /* Set the text color to contrast with the background */
+}
+
+li{
+  font-size: medium;
+  list-style-type: none;
+}
+
+/* styles.css */
+/* styles.css */
+
+.header {
+  background-color: #a3b3cd;
+  color: #ffffff;
+  padding: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 20;
+}
+
+header li {
+  display: inline;
+  margin-right: 25px;
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+header a:hover {
+  color: #ff0000;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  direction: ltr; 
+}
+
+select option {
+  padding: 12px;
+}
+
+   

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Planner Home Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="header">
+  <header>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="food.html">RECIPES</a></li>
+        <li><a href="feedback.html">FEEDBACK</a></li>
+    </ul>
+  </header>
+</div>
+  <center>
+    <div class="container">
+      <br>
+        <h1>FOOD RECIPES    </h1>
+        <br>
+        <img src="food.jpeg" width="500" height="200">
+        <br><br>
+        <h3>Choose meal:-</h3>
+        <select id="meal-type-dropdown">
+          <option value="">--Select a meal--</option>
+          <option value="Corba">Corba</option>
+          <option value="Sushi">Sushi</option>
+          <option value="Burek">Burek</option>
+          <option value="Kumpir">Kumpir</option>
+          <option value="Bistek">Bistek</option>
+          <option value="Tamiya">Tamiya</option>
+          <option value="Poutine">Poutine</option>
+          <option value="Lasagne">Lasagne</option>
+          <option value="Kafteji">Kafteji</option>
+          <option value="Wontons">Wontons</option>
+          <option value="Dal fry">Dal fry</option>
+          <option value="Koshari">Koshari</option>
+          <option value="Timbits">Timbits</option>
+          <option value="Big Mac">Big Mac</option>
+          <option value="Fish pie">Fish pie</option>
+          <option value="Kedgeree">Kedgeree</option>
+          <option value="Stamppot">Stamppot</option>
+          <option value="Shawarma">Shawarma</option>
+          <option value="Kapsalon">Kapsalon</option>
+          <option value="Flamiche">Flamiche</option>
+          <option value="Pancakes">Pancakes</option>
+          <option value="Moussaka">Moussaka</option>
+          <option value="Yaki Udon">Yaki Udon</option>
+          <option value="Shakshuka">Shakshuka</option>
+          <option value="Tourtiere">Tourtiere</option>
+
+      </select>
+      <button id="fetch-meal-btn">SEARCH</button>
+      <div id="meal-container"></div>
+  
+      <script src="food.js">
+          
+      </script>
+  </center>
+</body>
+</html>
